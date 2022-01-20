@@ -10,15 +10,12 @@ public class SwapThreeNum {
 	
 	//swapping using temp variable
 	
-	public static void swapThreeNumWithTemp(int a, int b, int c) {
-		
-		int numOne, numTwo, numThree;
-		numOne = a;
-		numTwo = b;
-		numThree = c;
+	public static void swapThreeNumWithTemp(int numOne, int numTwo, int numThree) {
+
 		int temp = 0;
 		
-		System.out.println("Before Swapping");
+		System.out.println("\nSwapping three numbers using temp variable.");
+		System.out.println("\nBefore Swapping");
 		System.out.println("NumOne is \t"+numOne+"\nNumTwo is \t"+numTwo+"\nNumThree is \t"+numThree);
 		
 		temp = numOne + numTwo + numThree;
@@ -31,13 +28,9 @@ public class SwapThreeNum {
 	}
 	
 	// swapping without using temp variable
-	public static void swapThreeNumWithoutTemp(int a, int b, int c) {
-
-		int numOne, numTwo, numThree;
-		numOne = a;
-		numTwo = b;
-		numThree = c;
+	public static void swapThreeNumWithoutTemp(int numOne, int numTwo, int numThree) {
 		
+		System.out.println("\nSwapping three numbers without using temp variable.");
 		System.out.println("\nBefore Swapping");
 		System.out.println("NumOne is \t"+numOne+"\nNumTwo is \t"+numTwo+"\nNumThree is \t"+numThree);
 		
